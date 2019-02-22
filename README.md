@@ -16,7 +16,7 @@ Download and install [MongoDB](https://www.mongodb.com/download-center#community
 Create a new MongoDB database. Retrieve your URI connection string. See examples [here](https://docs.mongodb.com/manual/reference/connection-string/#examples)
 Create your .env file and populate the relevant values based on the sample file .env-sample
 
-After confirming that your environment meets the above requirements, you can create a new project based on `react-redux-starter-kit` by doing the following:
+After confirming that your environment meets the above requirements, you can create a new project by doing the following:
 
 ```bash
 $ git clone https://github.com/eldrego/simple-phonebook.git <my-project-name>
@@ -27,7 +27,7 @@ Then install dependencies
 
 ```bash
 $ npm install
-$ npm start                     # Compiles the server-side and client side before the application launches
+$ npm start                     # Compiles the server-side before the application launches
 ```
 If everything works, you should get a message indicating so. In development Application will be served on port 8080
 Open the web browser to http://localhost:9090/
